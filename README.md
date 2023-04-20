@@ -44,7 +44,7 @@ The node offers following parameters for configuration at launch.
 
 An example parameter file is provided in the params directory.
 
-And example launch file is provided in the launch directory.
+An example launch file is provided in the launch directory.
 
 
 ## Updates and contributions

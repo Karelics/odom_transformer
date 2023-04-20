@@ -1,0 +1,6 @@
+*.pyc
+*.idea/
+
+**/__pycache__/
+**.pytest_cache/
+**/htmlcov/

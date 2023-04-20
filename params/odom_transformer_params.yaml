@@ -1,0 +1,15 @@
+odom_transformer:
+  ros__parameters:
+    base_frame: base_link
+
+    odoms_to_transform: ["cam_1", "cam_2"]
+
+    cam_1:
+      topic_in: /camera_1/visual_slam/tracking/odometry
+      source_frame: camera_1_infra1_frame
+      topic_out: /camera_1/odom_base
+
+    cam_2:
+      topic_in: /camera_2/visual_slam/tracking/odometry
+      source_frame: camera_2_infra1_frame
+      topic_out: /camera_2/odom_base
